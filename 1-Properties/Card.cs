@@ -28,7 +28,8 @@ namespace Properties
         /// Initializes a new instance of the <see cref="Card"/> class.
         /// </summary>
         /// <param name="tuple">the informations about the card as a tuple.</param>
-        internal Card(Tuple<string, string, int> tuple) : this(tuple.Item1, tuple.Item2, tuple.Item3)
+        internal Card(Tuple<string, string, int> tuple) 
+            : this(tuple.Item1, tuple.Item2, tuple.Item3)
         {
         } 
 
